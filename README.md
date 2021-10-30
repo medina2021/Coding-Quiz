@@ -8,5 +8,4 @@ A timed coding quiz with multiple-choice questions. At the edn of the quiz you c
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
-
+![code](https://user-images.githubusercontent.com/80498269/139541080-96f4fbfc-38cb-4d98-b269-e97ce965e32c.png)
