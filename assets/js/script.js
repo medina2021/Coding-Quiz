@@ -47,10 +47,9 @@ function startQuiz() {
 
    choicesEl.innerHTML = "";
 
-   questions[questionIndex].choices.forEach(function (choice) {
+  questions[questionIndex].choices.forEach(function (choice) {
      
       let choiceButton = document.createElement('button');
-
       choiceButton.textContent= choice;
 
     // Append the button
@@ -62,10 +61,10 @@ function startQuiz() {
  };
 
  function checkAnswer(event) {
-   const correctAnswer = questions[questionIndex].checkAnswer
+   const correctAnswer = questions[questionIndex].answer
 
    if (event.target.textContent !=correctAnswer) {
-     timeLeft-=15
+     timeLeft-= 15
    };
 
    questionIndex++
