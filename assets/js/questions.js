@@ -1,4 +1,4 @@
-const quizQuest = [
+const questions = [
 {
 quest: "Commonly used data types DO NOT include",
 multipleChoice: ["strings", "booleans", "alerts", "numbers"],
